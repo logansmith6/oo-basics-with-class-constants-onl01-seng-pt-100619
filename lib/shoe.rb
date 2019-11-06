@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
 
     BRANDS.each do |dup|
-      if @brand == dup
+      if @brand == brand
 
     else
     BRANDS << brand
