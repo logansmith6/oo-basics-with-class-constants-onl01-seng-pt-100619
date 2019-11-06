@@ -6,7 +6,11 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
+    BRANDS.each do |dup|
+      if dup != brand
+        BRANDS << brand
+      else
+      end
 
 
   end
