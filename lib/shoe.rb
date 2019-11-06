@@ -10,12 +10,12 @@ class Shoe
     tests = brand
     BRANDS.each do |dup|
       if tests == dup
-      
-    else 
+
+    else
     BRANDS << brand
   end
 end
-    
+
 
 
   end
