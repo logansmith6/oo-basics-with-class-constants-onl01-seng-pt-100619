@@ -5,18 +5,8 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-
-
-    BRANDS.each do |dup|
-      if @brand == brand
-
-    else
-      @brand = brand
+    @brand = brand
     BRANDS << brand
-  end
-end
-
-
 
   end
 
