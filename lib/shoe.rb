@@ -11,6 +11,7 @@ class Shoe
         BRANDS << brand
       else
       end
+    end
 
 
   end
